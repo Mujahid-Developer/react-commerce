@@ -1,0 +1,35 @@
+.product {
+  width: 350px;
+  height: 480px;
+  margin: 20px;
+  padding: 20px;
+  color: #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(245, 245, 245);
+}
+.product img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4 {
+  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.8em;
+}
+.main-button {
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: #ffb805;
+  border: none;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.main-button:hover {
+  background-color: #181818;
+}
